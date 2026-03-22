@@ -121,7 +121,7 @@ compress_video() {
 
   # Run ffmpeg in background, pipe stderr to progress file
   ffmpeg -y -i "$input" \
-    -vf "scale='if(gt(iw,ih),1440,1080)':'if(gt(iw,ih),1080,1440)'" \
+    -vf "scale='if(gt(iw,ih),1920,1080)':'if(gt(iw,ih),1080,1920)'" \
     -c:v libx264 -crf 18 -preset slow \
     -tune film -r 60 \
     -c:a aac -b:a 128k -movflags +faststart \
