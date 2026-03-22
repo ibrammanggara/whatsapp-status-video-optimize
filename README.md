@@ -1,6 +1,8 @@
 # whatsapp-status-video-optimize
 untuk upload video ke status whatsapp agar tidak blur/pecah
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 ## installasi ffmpeg (ubuntu)
 
 1. install ffmpeg
